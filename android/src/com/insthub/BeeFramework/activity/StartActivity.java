@@ -45,45 +45,40 @@ import com.insthub.ecmobile.activity.GalleryImageActivity;
 import com.umeng.analytics.MobclickAgent;
 
 public class StartActivity extends Activity {
-    private Context context;
 
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        final View startView = View.inflate(this, R.layout.splash, null);
-        setContentView(startView);
-        MobclickAgent.openActivityDurationTrack(false);
-        MobclickAgent.onError(this);
-        context = this;
-        //渐变
-        AlphaAnimation aa = new AlphaAnimation(0.3f, 1.0f);
-        aa.setDuration(2000);
-        startView.setAnimation(aa);
-        aa.setAnimationListener(new AnimationListener() {
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		final View startView = View.inflate(this, R.layout.splash, null);
+		setContentView(startView);
+		MobclickAgent.openActivityDurationTrack(false);
+		MobclickAgent.onError(this);
+		// 渐变
+		AlphaAnimation aa = new AlphaAnimation(0.3f, 1.0f);
+		aa.setDuration(2000);
+		startView.setAnimation(aa);
+		aa.setAnimationListener(new AnimationListener() {
 
-            @Override
-            public void onAnimationStart(Animation animation) {
-                 
+			@Override
+			public void onAnimationStart(Animation animation) {
 
-            }
+			}
 
-            @Override
-            public void onAnimationRepeat(Animation animation) {
-                 
+			@Override
+			public void onAnimationRepeat(Animation animation) {
 
-            }
+			}
 
-            @Override
-            public void onAnimationEnd(Animation animation) {
-                 
-                redirectto();
-            }
-        }
-        );
-    }
+			@Override
+			public void onAnimationEnd(Animation animation) {
 
-    private void redirectto() {
-        Intent intent = new Intent(this,GalleryImageActivity.class);
-        startActivity(intent);
-        finish();
-    }
+				redirectto();
+			}
+		});
+	}
+
+	private void redirectto() {
+		Intent intent = new Intent(this, GalleryImageActivity.class);
+		startActivity(intent);
+		finish();
+	}
 }
