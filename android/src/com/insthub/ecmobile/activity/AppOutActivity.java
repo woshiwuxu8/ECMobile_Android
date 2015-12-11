@@ -21,6 +21,7 @@ import android.widget.ImageView;
 import com.insthub.BeeFramework.activity.BaseActivity;
 import com.insthub.ecmobile.R;
 import com.umeng.analytics.MobclickAgent;
+import com.umeng.common.Log;
 
 public class AppOutActivity extends BaseActivity {
 
@@ -32,7 +33,7 @@ public class AppOutActivity extends BaseActivity {
 		setContentView(R.layout.appout);
 		
 		bg = (ImageView) findViewById(R.id.bg);
-		
+		Log.e("AppOutActivity", "onCreate");
 		Intent intent = getIntent();
 		int flag = intent.getIntExtra("flag", 0);
 		if(flag == 1) {
