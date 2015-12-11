@@ -11,6 +11,7 @@ package com.insthub.ecmobile.activity;
 //     \/___/
 //
 //  Powered by BeeFramework
+//  祈求无bug！！！
 //
 import android.content.Intent;
 import android.os.Bundle;
