@@ -33,7 +33,7 @@
     <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
 
     <application
-        android:name="com.insthub.ecmobile.EcmobileApp"
+        android:name=".EcmobileApp"
         android:allowBackup="false"
         android:icon="@drawable/ecmobile_logo"
         android:label="@string/app_name"
@@ -48,7 +48,7 @@
             android:value="4" />
 
         <activity
-            android:name="com.insthub.ecmobile.activity.EcmobileMainActivity"
+            android:name=".activity.EcmobileMainActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden|adjustPan" >
@@ -69,106 +69,106 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.insthub.ecmobile.activity.A0_SigninActivity"
+            android:name=".activity.A0_SigninActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.insthub.ecmobile.activity.A1_SignupActivity"
+            android:name=".activity.A1_SignupActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateVisible|adjustResize" />
         <activity
-            android:name="com.insthub.ecmobile.activity.B1_ProductListActivity"
+            android:name=".activity.B1_ProductListActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden" />
         <activity
-            android:name="com.insthub.ecmobile.activity.B2_ProductDetailActivity"
+            android:name=".activity.B2_ProductDetailActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden" />
         <activity
-            android:name="com.insthub.ecmobile.activity.B3_ProductPhotoActivity"
+            android:name=".activity.B3_ProductPhotoActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.insthub.ecmobile.activity.B4_ProductParamActivity"
+            android:name=".activity.B4_ProductParamActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.insthub.ecmobile.activity.B5_ProductCommentActivity"
+            android:name=".activity.B5_ProductCommentActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.insthub.ecmobile.activity.B6_ProductDescActivity"
+            android:name=".activity.B6_ProductDescActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.insthub.ecmobile.activity.C0_ShoppingCartActivity"
+            android:name=".activity.C0_ShoppingCartActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.insthub.ecmobile.activity.C1_CheckOutActivity"
+            android:name=".activity.C1_CheckOutActivity"
             android:screenOrientation="portrait"
             android:theme="@style/ContentOverlay" />
         <activity
-            android:name="com.insthub.ecmobile.activity.C2_PaymentActivity"
+            android:name=".activity.C2_PaymentActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.insthub.ecmobile.activity.C3_DistributionActivity"
+            android:name=".activity.C3_DistributionActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.insthub.ecmobile.activity.C4_InvoiceActivity"
+            android:name=".activity.C4_InvoiceActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden|adjustPan" />
         <activity
-            android:name="com.insthub.ecmobile.activity.C5_BonusActivity"
+            android:name=".activity.C5_BonusActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.insthub.ecmobile.activity.C6_RedEnvelopeActivity"
+            android:name=".activity.C6_RedEnvelopeActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.insthub.ecmobile.activity.D1_CategoryActivity"
+            android:name=".activity.D1_CategoryActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden|adjustPan" />
-        <activity android:name="com.insthub.ecmobile.activity.D2_FilterActivity" >
+        <activity android:name=".activity.D2_FilterActivity" >
         </activity>
         <activity
-            android:name="com.insthub.ecmobile.activity.E4_HistoryActivity"
+            android:name=".activity.E4_HistoryActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.insthub.ecmobile.activity.E5_CollectionActivity"
+            android:name=".activity.E5_CollectionActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.insthub.ecmobile.activity.E6_ShippingStatusActivity"
+            android:name=".activity.E6_ShippingStatusActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.insthub.ecmobile.activity.F0_AddressListActivity"
+            android:name=".activity.F0_AddressListActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.insthub.ecmobile.activity.F1_NewAddressActivity"
+            android:name=".activity.F1_NewAddressActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden" />
         <activity
-            android:name="com.insthub.ecmobile.activity.F2_EditAddressActivity"
+            android:name=".activity.F2_EditAddressActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden" />
         <activity
-            android:name="com.insthub.ecmobile.activity.F3_RegionPickActivity"
+            android:name=".activity.F3_RegionPickActivity"
             android:screenOrientation="portrait"
             android:theme="@style/dialog" />
         <activity
-            android:name="com.insthub.ecmobile.activity.G0_SettingActivity"
+            android:name=".activity.G0_SettingActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.insthub.ecmobile.activity.G1_HelpActivity"
+            android:name=".activity.G1_HelpActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.insthub.ecmobile.activity.G2_InfoActivity"
+            android:name=".activity.G2_InfoActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.insthub.ecmobile.activity.GalleryImageActivity"
+            android:name=".activity.GalleryImageActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.insthub.ecmobile.activity.AppOutActivity"
+            android:name=".activity.AppOutActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.insthub.ecmobile.AppExpiredAcitivty"
+            android:name=".AppExpiredAcitivty"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.insthub.ecmobile.activity.ShareActivity"
+            android:name=".activity.ShareActivity"
             android:screenOrientation="portrait"
             android:theme="@style/dialog" >
             <intent-filter>
@@ -178,19 +178,19 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.insthub.ecmobile.activity.PayWebActivity"
+            android:name=".activity.PayWebActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.insthub.ecmobile.activity.HelpWebActivity"
+            android:name=".activity.HelpWebActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.insthub.ecmobile.activity.BannerWebActivity"
+            android:name=".activity.BannerWebActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.insthub.ecmobile.activity.ShareWebActivity"
+            android:name=".activity.ShareWebActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.insthub.ecmobile.activity.SpecificationActivity"
+            android:name=".activity.SpecificationActivity"
             android:screenOrientation="portrait"
             android:theme="@style/dialog" />
         <activity
@@ -200,7 +200,7 @@
             android:name="com.insthub.BeeFramework.activity.WebViewActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.insthub.ecmobile.activity.ShareTencentActivity"
+            android:name=".activity.ShareTencentActivity"
             android:screenOrientation="portrait" />
         <activity
             android:name="com.insthub.BeeFramework.activity.ActivityLifeCycleActivity"
@@ -231,11 +231,11 @@
             android:name="com.insthub.BeeFramework.activity.FloatViewSettingActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.insthub.ecmobile.activity.AlixPayActivity"
+            android:name=".activity.AlixPayActivity"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Dialog" />
         <activity
-            android:name="com.insthub.ecmobile.activity.OtherPayWebActivity"
+            android:name=".activity.OtherPayWebActivity"
             android:screenOrientation="portrait" />
 
         <service android:name="com.insthub.BeeFramework.service.MemoryService" >
@@ -350,6 +350,11 @@
             android:name="com.baidu.android.pushservice.PushService"
             android:exported="true"
             android:process=":bdservice_v1" />
+
+        <activity
+            android:name=".TestActivity"
+            android:label="@string/title_activity_test" >
+        </activity>
     </application>
 
 </manifest>
