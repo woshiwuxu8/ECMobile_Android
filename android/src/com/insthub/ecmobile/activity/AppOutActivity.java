@@ -33,6 +33,7 @@ public class AppOutActivity extends BaseActivity {
 		setContentView(R.layout.appout);
 		
 		bg = (ImageView) findViewById(R.id.bg);
+		System.out.println("onCreate()");
 		Log.e("AppOutActivity", "onCreate");
 		Intent intent = getIntent();
 		int flag = intent.getIntExtra("flag", 0);
