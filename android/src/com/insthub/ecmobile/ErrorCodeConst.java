@@ -12,6 +12,7 @@ package com.insthub.ecmobile;
 //     \/___/
 //
 //  Powered by BeeFramework
+//  Powered by BeeFramework
 //
 
 public class ErrorCodeConst
