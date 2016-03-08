@@ -1,6 +1,8 @@
 ECMobile
 ================
 
+2016 03 08
+
 [ECMobile](http://www.ecmobile.cn) 是基于 [ECShop](http://www.ecshop.com) 的手机商城客户端，包括iOS、Android、PHP三个平台源代码及框架已开放下载！
 
 #####支持开源及后续版本更新，请FORK和STAR，感谢您的支持！
