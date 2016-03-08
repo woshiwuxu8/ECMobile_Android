@@ -195,6 +195,7 @@ public class B2_ProductDetailActivity extends BaseActivity implements BusinessRe
         goodPromotePriceTextView = (TextView)headView.findViewById(R.id.promote_price);
         goodMarketPriceTextView = (TextView)headView.findViewById(R.id.market_price);
         goodMarketPriceTextView.getPaint().setAntiAlias(true);
+        goodMarketPriceTextView.setTextSize(26);
         goodMarketPriceTextView.getPaint().setFlags(Paint.STRIKE_THRU_TEXT_FLAG);
 
         countDownTextView = (TextView)headView.findViewById(R.id.count_down);
