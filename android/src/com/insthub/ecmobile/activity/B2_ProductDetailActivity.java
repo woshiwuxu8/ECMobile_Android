@@ -196,7 +196,7 @@ public class B2_ProductDetailActivity extends BaseActivity implements BusinessRe
         goodMarketPriceTextView = (TextView)headView.findViewById(R.id.market_price);
         goodMarketPriceTextView.getPaint().setAntiAlias(true);
         goodMarketPriceTextView.setTextSize(26);
-        goodMarketPriceTextView.getPaint().setFlags(Paint.FAKE_BOLD_TEXT_FLAG);
+        goodMarketPriceTextView.getPaint().setFlags(Paint.UNDERLINE_TEXT_FLAG);
 
         countDownTextView = (TextView)headView.findViewById(R.id.count_down);
 
