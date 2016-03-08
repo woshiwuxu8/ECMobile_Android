@@ -13,12 +13,10 @@ package com.insthub.ecmobile;
 //  Powered by BeeFramework
 //
 
-import android.content.Context;
-import android.content.pm.PackageInfo;
-import android.content.pm.PackageManager;
-import android.graphics.Bitmap;
 import com.insthub.BeeFramework.BeeFrameworkApp;
 import com.nostra13.universalimageloader.core.DisplayImageOptions;
+
+import android.graphics.Bitmap;
 
 public class EcmobileApp extends BeeFrameworkApp
 {
