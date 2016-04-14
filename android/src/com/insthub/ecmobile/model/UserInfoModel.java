@@ -31,6 +31,10 @@ import com.external.androidquery.callback.AjaxStatus;
 import com.insthub.BeeFramework.model.BaseModel;
 import com.insthub.BeeFramework.model.BeeCallback;
 
+/**
+ * @author Administrator
+ * @since 1.0
+ */
 public class UserInfoModel extends BaseModel {
     public USER user;
     private SharedPreferences shared;
