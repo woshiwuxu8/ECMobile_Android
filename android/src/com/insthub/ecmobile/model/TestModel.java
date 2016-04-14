@@ -1,13 +1,13 @@
 package com.insthub.ecmobile.model;
 
 public class TestModel {
-	private String test;
+	private String testSSS;
 
 	public String getTest() {
-		return test;
+		return testSSS;
 	}
 
 	public void setTest(String test) {
-		this.test = test;
+		this.testSSS = test;
 	}
 }
