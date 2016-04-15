@@ -8,6 +8,9 @@
 package com.external.alipay;
 
 public final class AlixId {
+	
+	public static final int BASE_ID = 000000001;
+	
 	public static final int BASE_ID = 0;
 	public static final int RQF_PAY = BASE_ID + 1;
 	public static final int RQF_INSTALL_CHECK = RQF_PAY + 1;
