@@ -8,8 +8,8 @@
 package com.external.alipay;
 
 public final class AlixId {
-	
-	
+	// add for 小明
+	private String  name ="小明" ;
 	public static final int BASE_ID = 0;
 	public static final int RQF_PAY = BASE_ID + 1;
 	public static final int RQF_INSTALL_CHECK = RQF_PAY + 1;
