@@ -27,7 +27,7 @@ public final class ActiveAndroid {
 	//////////////////////////////////////////////////////////////////////////////////////
     private String name="tom" ;
 	 
-	
+	private int age =12 ;
 	
 	public synchronized static void initialize(Application application) {
 		initialize(application, false);
