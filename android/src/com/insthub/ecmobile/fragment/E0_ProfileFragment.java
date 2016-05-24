@@ -130,8 +130,9 @@ public class E0_ProfileFragment extends BaseFragment implements IXListViewListen
 				 
 				Intent intent = new Intent(getActivity(), G0_SettingActivity.class);
 				startActivity(intent);
-                getActivity().overridePendingTransition(R.anim.push_right_in,
-                        R.anim.push_right_out);
+                getActivity().overridePendingTransition(
+                		android.R.anim.slide_in_left,
+                		android.R.anim.slide_out_right);
 			}
 		});
 
