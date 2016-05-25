@@ -42,7 +42,7 @@ public class UnderlinePageIndicator extends View implements PageIndicator {
     private static final int FADE_FRAME_MS = 30;
 
     private final Paint mPaint = new Paint(Paint.ANTI_ALIAS_FLAG);
-
+    private final int i =5 ;
     private boolean mFades;
     private int mFadeDelay;
     private int mFadeLength;
