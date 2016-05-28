@@ -17,6 +17,8 @@ public class BlankActivity extends Activity {
 		TextView textView2 = (TextView) findViewById(R.id.textView2);
 		textView2.setText("text2");
 
+		System.out.println("0528 18:56");
+
 	}
 
 }
