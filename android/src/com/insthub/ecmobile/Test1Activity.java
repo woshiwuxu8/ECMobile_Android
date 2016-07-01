@@ -8,7 +8,8 @@ public class Test1Activity extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_test1);
+		int layoutID = R.layout.activity_test1;
+		setContentView(layoutID);
 	}
 
 
