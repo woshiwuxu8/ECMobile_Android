@@ -10,9 +10,7 @@ public class Test1Activity extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		LayoutInflater inflater = getLayoutInflater();
-		View layout = inflater.inflate(R.layout.activity_test1, null);
-		setContentView(layout);
+		setContentView(R.layout.activity_test1);
 
 //		int layoutID = R.layout.activity_test1;
 //		setContentView(layoutID);
