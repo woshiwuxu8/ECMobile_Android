@@ -2,8 +2,7 @@ package com.insthub.ecmobile;
 
 import android.app.Activity;
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuItem;
+import android.view.View;
 
 public class MainActivity extends Activity
 {
@@ -12,7 +11,7 @@ public class MainActivity extends Activity
 	protected void onCreate(Bundle savedInstanceState)
 	{
 		super.onCreate(savedInstanceState);
-		int layoutID = R.layout.activity_main;
-		setContentView(layoutID);
+		View view = getLayoutInflater().inflate(R.layout.activity_main, null);
+		setContentView(view);
 	}
 }
